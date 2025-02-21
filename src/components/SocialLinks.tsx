@@ -19,7 +19,7 @@ const SocialLinks: React.FC = () => {
         onClick={toggleGithubVisibility}
         style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
       >
-        <Github size={24} />
+        <Github size={24} className='social-icon' />
         {showGithub && (
           <a
             href='https://github.com/jasminlei'
@@ -35,7 +35,7 @@ const SocialLinks: React.FC = () => {
         onClick={toggleEmailVisibility}
         style={{ cursor: 'pointer', display: 'flex', alignItems: 'center' }}
       >
-        <Mail size={24} />
+        <Mail size={22} className='social-icon' />
         {showEmail && (
           <span style={{ fontSize: '0.8rem', marginLeft: '0.5rem' }}>
             jasmin.leinonen@helsinki.fi
